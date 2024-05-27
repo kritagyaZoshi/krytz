@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .parent{
+            border: 4px solid black;
+            display: flex;
+            height: 400px;
+            justify-content:center ;
+            /* align-items: center; */
+            
+
+            /* flex-wrap: wrap;
+            align-content: center; */
+
+            /* gap: 2rem; */
+
+            /* flex-direction: column; */
+        }
+        .children{
+            height: 100px;
+            width: 100px;
+            border: 2px solid purple;
+            font-size: 2rem;
+            align-content: center;
+            justify-content: center;
+
+            
+        }
+
+        #chill1{
+            background-color: royalblue;
+            order: 1;
+            /* flex-shrink:5; */
+            flex-grow: 5;
+            align-self: center;
+        }
+
+        #chill2{
+            background-color: royalblue;
+            order: 2;
+        }
+
+        #chill3{
+            background-color: royalblue;
+            order: 3;
+        }
+
+        #chill4{
+            background-color: royalblue;
+            order: 4;
+        }
+
+        #chill5{
+            background-color: royalblue;
+            order: 5;
+        }
+
+        #chill6{
+            background-color: royalblue;
+            order: 6;
+        }
+
+        #chill7{
+            background-color: royalblue;
+            order: 7;
+        }
+
+        #chill8{
+            background-color: royalblue;
+            order: 8;
+        }
+
+        #chill9{
+            background-color: royalblue;
+            order: 9;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="children" id="chill1">1</div>
+        <div class="children" id="chill2">2</div>
+        <div class="children" id="chill3">3</div>
+        <div class="children" id="chill4">4</div>
+        <div class="children" id="chill5">5</div>
+        <div class="children" id="chill6">6</div>
+        <div class="children" id="chill7">7</div>
+        <div class="children" id="chill8">8</div>
+        <div class="children" id="chill9">9</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Units</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .parent {
+            height: 800px;
+            width: 800px;
+            background-color: brown;
+        }
+
+        .box {
+            background-color: blue;
+            /* height: 500px;
+            width: 500px; */
+            height: 50px;
+            width: 50%;
+            /* height: 100vh;
+            width: 20vw; */
+
+
+        }
+
+        .description{
+            font-size: 20px;
+        }
+        
+        p{
+            font-size: 2rem;
+            /* 1 rem= 16px */
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <h3>Css Units</h3>
+    <div class="description"></div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, autem. Pariatur debitis veritatis tenetur
+        voluptate velit ipsa temporibus quam, ipsum nihil nesciunt vel accusamus provident recusandae? Sit numquam vero
+        id?</p>
+    <!-- <ol>
+        <li>px(pixels/ its related to its normal size/fixed(not use for responsibe))</li>
+        <li>%(percent)/ related to its parent</li>
+        <li>vh(viewport's height/ related to viewport height)</li>
+        <li>vw(viewport's width/ related to viewport width)</li>
+        <li>rem(related to html root element)</li>
+        <li>em(related to parent)</li>
+    </ol> -->
+
+
+    <div class="parent">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

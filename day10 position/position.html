@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .thulobox {
+            /* height: 200px;
+            width: 200px; */
+            border: 2px solid black;
+            display: flex;
+            width: 50%;
+            height: 50vh;
+            position: relative;
+            z-index: 11;
+        }
+
+        .sanobox {
+            height: 4%;
+            width: 40px;
+            border: 2px solid lightblue;
+            background-color: lightgreen;
+            font-size: 10rem;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box1 {
+            margin-left: 3rem;
+            /* position: Static; */
+            /* position: relative; */
+            /* position: absolute; */
+            position: fixed;
+            left: 3rem;
+            right: 2;
+            bottom: 2;
+        }
+
+        .navbar{
+            height: 60px;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+        }
+
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            position: sticky;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <h2>Position Types</h2>
+    <ol>
+        <li>Static(default Position)</li>
+        <li>fixed(Scroll Position not move)</li>
+        <li>Sticky(Scroll element will stick)</li>
+        <li>Relative(normal Position)</li>
+        <li>Absolute(Relative to parent)</li>
+    </ol> -->
+
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+            <li>Blog</li>
+            <li>Skills</li>
+        </ul>
+    </div>
+    <div class="thulobox">
+        <div class="sanobox" id="box1">1</div>
+        <div class="sanobox">2</div>
+        <div class="sanobox">3</div>
+        <div class="sanobox">4</div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+        error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+            error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                    error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                        error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                            error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                    error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                        error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                            error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                                error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                                    error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                                        error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ea perspiciatis fuga iste? Impedit quia est
+                                                            error sapiente rerum fugiat recusandae quo nihil ad laborum. Inventore corrupti ipsam ea suscipit.</p>
+</body>
+
+</html>

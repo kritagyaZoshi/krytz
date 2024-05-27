@@ -1,0 +1,86 @@
+*{
+    margin:0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+    height: 70px;
+    color: white;
+    font-family: "Baloo Paaji 2" ,sans-serif;
+}
+
+.navlinks{
+    
+    width: 50%;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.shadow{
+    /* box-shadow: x-offset, y-offset, blur, spread, color; */
+    height: 150px;
+    width: 150px;
+    box-shadow: 3px 3px 11px 3px #EAEAEA;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.boxshadow{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 2rem;
+    width: 40%;
+    align-items: center;
+}
+
+.inseptshadow{
+    /* box-shadow: x-offset, y-offset, blur, spread, color; */
+    height: 150px;
+    width: 150px;
+    box-shadow: 9px 7px 11px 3px gray;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.outsetshadow{
+    /* box-shadow: x-offset, y-offset, blur, spread, color; */
+    height: 150px;
+    font-size: 3rem;
+    width: 150px;
+    box-shadow: 0px 0px 11px 2px gray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.layer{
+    /* box-shadow: x-offset, y-offset, blur, spread, color; */
+    height: 150px;
+    font-size: 3rem;
+    width: 150px;
+    box-shadow: 3px 4px 0px 2px gray,
+    4px 5px 0px 3px blue,
+    5px 6px 0px 4px red,
+    6px 7px 0px 5px green,
+    7px 8px 0px 6px yellow,
+    8px 9px 0px 7px black,
+    9px 10px 0px 8px violet;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
