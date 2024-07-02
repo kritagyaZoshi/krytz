@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+
+    <h2 id="heading">
+        Mindrisers Course
+    </h2>
+
+    <ol>
+        <li class="course">UI/UX</li>
+        <li class="course">Python</li>
+        <li class="course">Django</li>
+        <li class="course">Mernstack</li>
+    </ol>
+    <script>
+
+        // document.getElementById()
+        // document.getElementByClassName()
+        // document.getElementsByTagName()
+
+        // document.querySelector()
+        // document.querySelectorAll()
+
+        let courses = document.querySelectorAll(".course")
+        console.log(courses)
+
+        // head.textContent ="changes from textcontent";
+        // head.innerText = "changes from innertext";
+        // head.innerHTML ="<h1> change from innerhtml </h1>";
+
+        // head.style.color="red";
+
+        // courses[0].textContent = "PHP"
+        // courses[0].style.color ="red"
+
+        courses[1].style.color ="red";
+    </script>
+    
+</body>
+</html>
